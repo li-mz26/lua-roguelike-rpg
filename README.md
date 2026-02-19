@@ -13,8 +13,7 @@
 
 ### 依赖
 
-- Lua 5.1+
-- [LÖVE](https://love2d.org/) (可选，用于图形界面)
+- [LÖVE 2D](https://love2d.org/) 11.0+ (包含 Lua)
 
 ### 运行
 
@@ -23,8 +22,8 @@
 git clone https://github.com/li-mz26/lua-roguelike-rpg.git
 cd lua-roguelike-rpg
 
-# 运行游戏
-lua main.lua
+# 使用 LÖVE 运行游戏
+love .
 ```
 
 ## 开发
